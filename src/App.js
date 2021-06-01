@@ -7,6 +7,15 @@ function App() {
   return (
     <div className='App'>
       <h1>MAIN PAGE WITH DIFFERENT PAGES LINK</h1>
+      <iframe
+        width='560'
+        height='315'
+        src='https://www.youtube.com/embed/-QjKbULq7CE'
+        title='YouTube video player'
+        frameborder='0'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+        allowfullscreen
+      ></iframe>
       <Link to='/first'>FIRST PAGE</Link>
       <Link to='/second'>SECOND PAGE</Link>
       <Switch>
