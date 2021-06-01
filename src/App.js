@@ -17,7 +17,7 @@ function App() {
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         allowfullscreen
       ></iframe> */}
-      <button onClick={() => setCount(count + 1)}>{count}</button>
+      <button class="btn" onClick={() => setCount(count + 1)}>{count}</button>
       <Link to='/first'>FIRST PAGE</Link>
       <Link to='/second'>SECOND PAGE</Link>
       <Switch>
