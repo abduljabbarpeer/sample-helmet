@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='App'>
       <h1>MAIN PAGE WITH DIFFERENT PAGES LINK</h1>
-      {/* <iframe
+      <iframe
         width='560'
         height='315'
         src='https://www.youtube.com/embed/-QjKbULq7CE'
@@ -16,8 +16,8 @@ function App() {
         frameborder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         allowfullscreen
-      ></iframe> */}
-      <button class="btn" onClick={() => setCount(count + 1)}>{count}</button>
+      ></iframe>
+      {/* <button class="btn" onClick={() => setCount(count + 1)}>{count}</button> */}
       <Link to='/first'>FIRST PAGE</Link>
       <Link to='/second'>SECOND PAGE</Link>
       <Switch>
